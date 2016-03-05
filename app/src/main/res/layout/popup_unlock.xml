@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray7"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="40dp">
+
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="16:25"
+        android:textColor="@color/gray2"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Pass Code"
+        android:textColor="@color/gray2"
+        android:textSize="30sp"
+        />
+
+    <com.jungly.gridpasswordview.GridPasswordView
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+
+        app:gpvGridColor="@color/gray5"
+        app:gpvLineColor="@color/accent"
+        app:gpvLineWidth="3dp"
+        app:gpvPasswordLength="4"
+        app:gpvPasswordTransformation="*"
+        app:gpvPasswordType="numberPassword"
+        app:gpvTextColor="@color/accent"
+        app:gpvTextSize="25sp"
+        />
+
+</LinearLayout>
+

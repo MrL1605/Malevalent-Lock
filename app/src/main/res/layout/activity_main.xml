@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Change Pass Code"
+            android:textSize="30sp"
+            android:padding="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.jungly.gridpasswordview.GridPasswordView
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+
+                app:gpvGridColor="@color/gray_light"
+                app:gpvLineColor="@color/accent"
+                app:gpvLineWidth="3dp"
+                app:gpvPasswordLength="4"
+                app:gpvPasswordTransformation="*"
+                app:gpvPasswordType="numberPassword"
+                app:gpvTextColor="@color/accent"
+                app:gpvTextSize="25sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/try_it_bt"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/accent"
+        android:text="Try It"/>
+
+
+</RelativeLayout>

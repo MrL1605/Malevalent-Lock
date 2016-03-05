@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_dark">#424242</color>
+    <color name="gray_medium">#848484</color>
+    <color name="gray_light">#A4A4A4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <!--
+        <color name="primary">#795548</color>
+        <color name="primary_dark">#5D4037</color>
+        <color name="primary_light">#D7CCC8</color>
+        <color name="accent">#9E9E9E</color>
+        <color name="primary_text">#212121</color>
+        <color name="secondary_text">#727272</color>
+        <color name="icons">#FFFFFF</color>
+        <color name="divider">#B6B6B6</color>
+    -->
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#009ACD</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="blue0">#009ACD</color>
+    <color name="blue1">#008AB8</color>
+    <color name="blue2">#007BA4</color>
+    <color name="blue3">#006B8F</color>
+    <color name="blue4">#005C7B</color>
+    <color name="blue5">#004D66</color>
+    <color name="blue6">#002E3D</color>
+
+    <color name="blue_gray50">#eceff1</color>
+    <color name="blue_gray100">#cfd8dc</color>
+    <color name="blue_gray200">#b0bec5</color>
+    <color name="blue_gray300">#90a4ae</color>
+    <color name="blue_gray400">#78909c</color>
+    <color name="blue_gray500">#607d8b</color>
+    <color name="blue_gray600">#546e7a</color>
+    <color name="blue_gray700">#455a64</color>
+    <color name="blue_gray800">#37474f</color>
+    <color name="blue_gray900">#263238</color>
+
+
+    <color name="gray1">#848484</color>
+    <color name="gray2">#6E6E6E</color>
+    <color name="gray3">#585858</color>
+    <color name="gray4">#424242</color>
+    <color name="gray5">#2E2E2E</color>
+    <color name="gray6">#1C1C1C</color>
+    <color name="gray7">#151515</color>
+
+    <color name="silver">#CCCCCC</color>
+    <color name="rodeo_dust">#C9A798</color>
+    <color name="pearl_bush">#E9E0DB</color>
+    <color name="red">#FF0000</color>
+    <color name="vit_blue">#3B5998</color>
+    <color name="widget_brown">#634a5b</color>
+
+</resources>
